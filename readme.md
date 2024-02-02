@@ -1,12 +1,6 @@
 # DeploymentSession
 
-### 피로그래밍 17기 배포 세션1, 배포 세션 2 레퍼지토리
-
-<b>실습 내용 - 배포 세션 1</b> : [https://even-plain-88c.notion.site/1-abeefa387a864b0faf430fbfb8012bc5](https://www.notion.so/1-abeefa387a864b0faf430fbfb8012bc5)
-<br>
-
-<b>실습 내용 - 배포 세션 2</b> : [https://even-plain-88c.notion.site/2-220813-4c55e7d14fd24985b95fecbab09625ac](https://even-plain-88c.notion.site/2-220813-4c55e7d14fd24985b95fecbab09625ac)
-<br>
+### 피로그래밍 20기 배포 세션1, 배포 세션 2 레퍼지토리
 
 <b>실습 목표</b> :
 
@@ -29,10 +23,6 @@
 
 ① master : 실제 실습에서 사용할 브랜치
     
-② deployment-session-1 : 방명록 작성 프로젝트가 구현되어 있는 브랜치. 개발 모드에 적합하게 구현되어 있음
-    
-③ deployment-session-1-with-security : deployment-session-1의 내용에서 배포하기 전 수행해야 하는 보안 조치를 취한 브랜치. 배포 모드에 적합하게 구현되어 있음
-
 <br>    
 
 ### 실행
