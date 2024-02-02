@@ -1,0 +1,91 @@
+:root {
+    --background-color: #151515;
+    --font-color: white;
+
+    --button-background-color: #4DFF53;
+    --button-background-font-color: black;
+}
+
+body {
+    color: var(--font-color);
+    background: var(--background-color);
+}
+
+.body__container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.body__title {
+    height: 20vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.body__title > div {
+    margin:1rem;
+}
+
+.body__form {
+    height: 40vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+
+.field__name {
+    font-size: 1.2rem;
+}
+
+input {
+    height: 2rem;
+    width: 50vw;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 2rem;
+    width: 50vw;
+    height: 10vh;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+button {
+    padding: .4rem;
+    border: 0px;
+    border-radius: 10px;
+    background: var(--button-background-color);
+    color:var(--button-background-font-color);
+    font-size: 1rem;
+}
+
+
+.body__content {
+    width: 50vw;
+}
+
+.body__content__title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.content {
+    font-size: 1.2rem;
+    margin: .8rem 0;
+}
